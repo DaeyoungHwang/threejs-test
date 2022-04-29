@@ -1,0 +1,23 @@
+{
+  "name": "jsm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c \"rollup_config.js\"",
+    "start": "rollup -c ./rollup_config.js --watch"
+  },
+  "author": "Mugen87",
+  "license": "MIT",
+  "dependencies": {
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "three": "0.137.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "13.1.3",
+    "rollup": "2.67.2",
+    "rollup-plugin-terser": "7.0.2",
+    "serve": "13.0.2"
+  }
+}
